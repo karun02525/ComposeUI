@@ -59,6 +59,17 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+
+    implementation("io.coil-kt:coil-compose:2.6.0")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.3.0")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.2")
+    implementation ("androidx.compose.runtime:runtime:1.6.8")
+    implementation ("androidx.compose.runtime:runtime-livedata:1.6.8")
+    implementation ("androidx.constraintlayout:constraintlayout-compose:1.0.1")
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
